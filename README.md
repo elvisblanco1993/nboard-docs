@@ -16,7 +16,7 @@
 
 
 ### Pre-requisites
-Before you begin with the installation, please review your system and make sure the following software is installed. 
+Before you begin with the installation, please review your system and make sure the following software is installed.
 **This particular guide was designed around an Ubuntu Server configuration.**
 * Apache web server
 * PHP 7.3+
@@ -53,7 +53,8 @@ Enable rewrite
 * <code>sudo systemctl restart apache2;</code>
 
 ### Download
-Grab the latest version of *on_board* from our [website](nboard.app) or from the [Github](https://github.com/elvisblanco1993) repository.
+Download the latest version of *on_board* [here](https://github.com/elvisblanco1993/on_board/releases).
+
 Once downloaded, unzip <code>onboard.zip</code> on your web directory.
 
 ### Permissions
