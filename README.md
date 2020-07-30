@@ -47,7 +47,11 @@ Now let's make sure the correct folder permissions are set.
 Navigate to *on_board*, and on a terminal window type in the following commands:
 
 * <code>sudo chgrp -R www-data . </code>
-* <code>sudo chmod -R 775 ./storage</code>
+* <code>sudo chown -R $USER:www-data storage</code>
+* <code>sudo chown -R $USER:www-data bootstrap/cache</code>
+* <code>chmod -R 775 ./storage</code>
+* <code>chmod -R 775 bootstrap/cache</code>
+
 
 ### Configure your Virtual Host
 
