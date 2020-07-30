@@ -8,7 +8,7 @@ To get your Institution's contact information in the system simply:
 2. Enter all necessary information, then click **Save**.
 
 ## Front Page Setup
-By default, when you navigate to your on_board instance you will be presented with the login screen.
+By default, when you navigate to your *on_board* instance you will be presented with the login screen.
 In some occasions it may be important to showcase any kind of information related to your organization.
 
 Fortunately, this is something very easy to do here :wink:.

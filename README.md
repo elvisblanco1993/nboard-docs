@@ -2,7 +2,7 @@
 
 ## About
 
-> It is very important for every institution to educate it’s new coming students about the school’s policies and procedures, as well as to engage them into what is going to be their future student life. On_Board helps institutions accomplish just that, by providing an open source and robust platform where you can deploy the most amazing virtual orientations, simple and easy.
+> It is very important for every institution to educate it’s new coming students about the school’s policies and procedures, as well as to engage them into what is going to be their future student life. *on_board* helps institutions accomplish just that, by providing an open source and robust platform where you can deploy the most amazing virtual orientations, simple and easy.
 
 ## Features
 
@@ -53,7 +53,7 @@ Enable rewrite
 * <code>sudo systemctl restart apache2;</code>
 
 ### Download
-Grab the latest version of On_Board from our [website](nboard.app) or from the [Github](https://github.com/elvisblanco1993) repository.
+Grab the latest version of *on_board* from our [website](nboard.app) or from the [Github](https://github.com/elvisblanco1993) repository.
 Once downloaded, unzip <code>onboard.zip</code> on your web directory.
 
 ### Permissions
@@ -75,7 +75,7 @@ Now is time to get your database and email systems connected to On_board.
 To do this, first <code>cp .env.example .env</code>, then open **.env** on a code editor.
 
 #### Database
-> This step assumes you have created an empty database for your on_board instance, as well as a secure username and password.
+> This step assumes you have created an empty database for your *on_board* instance, as well as a secure username and password.
 
 1. On the **.env** file, look for the following code:
 
