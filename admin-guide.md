@@ -27,10 +27,12 @@ To create an orientation:
 2. Enter a name, description, and language, then click **Save**. *(The language field is for informative purposes only.
 
 ### Editing the orientation settings
-On your Dashboard, select the *sliders* icon next to the orientation you need to edit.<br>
+On your Dashboard, select the *sliders* icon next to the orientation you need to edit.
+
 ![image](assets/img/edit-orientation-01.gif)
 
 Once inside, you will see various options that will define how the orientation will look for the students.
+
 ![image](assets/img/edit-orientation-02.png)
 * **Name**: *The name of the orientation*.
 * **Description**: *The description of the orientation*.
