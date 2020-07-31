@@ -63,7 +63,16 @@ It is also possible to enroll students even when they haven't created an account
 4. Click **Save** when done.
   * Students will receive an email asking them to sign up. When they sign up, they will be able to start their orientation right away.
 
+#### Unenroll students
+> Please notice that students can **only** be unenrolled from an orientation if they have not completed it.
+
+To unenroll a student, go to the Statistics section of the orientation, then click the Delete option *(trash icon)* for the student/s that need to be removed.
+
 ### Track student progress
 We currently provide a simple, yet informative tool that allows administrators and advisors to track each individual student progress.
 
 * To do this, simply click the **Statistics / Enrolled students** button next to the orientation you would like to check on.
+
+You can also download a progress report by clicking the Excel download icon.
+
+![Excel download](assets/img/excel-report.gif)
