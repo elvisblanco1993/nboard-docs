@@ -1,3 +1,11 @@
-* [Setup](README.md)
+* Getting Started
+
+    * [Setup](README.md)
+
+<div style="border-bottom: 1px solid #eeeeee"></div>
+
 * User Guides
-* [Administration](admin-guide.md)
+
+    * [Administrators](admin-guide.md)
+    * [Advisors](advisors-guide.md)
+    * [Students](students-guide.md)
