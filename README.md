@@ -120,6 +120,6 @@ Set your app url by editing the <code>APP_URL</code> line on your **.env** file.
 #### Configure supervisor
 Supervisor is a tool that ensures all notification queues are properly run without any user interaction.
 
-To configure it please review the [official documentation](https://laravel.com/docs/7.x/queues#supervisor-configuration)
+To configure it please review the [official documentation](https://laravel.com/docs/8.x/queues#supervisor-configuration)
 
 > Alternatively, you can initialize the built-in queue worker with <code>php artisan queue:work</code>
