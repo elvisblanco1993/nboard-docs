@@ -6,11 +6,11 @@
 
 ## Features
 
-:heavy_check_mark: Custom orientation styling.
-:heavy_check_mark: Sections of type video, rich text, and assessments.
-:heavy_check_mark: Student invitation tool.
-:heavy_check_mark: Admin and Advisor dashboards.
-:heavy_check_mark: Email notification system.
+- :heavy_check_mark: Custom orientation styling.
+- :heavy_check_mark: Sections of type video, rich text, and assessments.
+- :heavy_check_mark: Student invitation tool.
+- :heavy_check_mark: Admin and Advisor dashboards.
+- :heavy_check_mark: Email notification system.
 
 ## Installation
 

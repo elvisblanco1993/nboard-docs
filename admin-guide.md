@@ -15,6 +15,10 @@ Fortunately, this is something very easy to do here :wink:.
 1. **As an Administrator**, Go to Settings > Front Page.
 2. Paste or manually enter your HTML content here, then click **Save**.
 3. Done! Now when you go to https://your-on_board.com you will be greeted with the content you just added.
+
+## Add your Certificates
+Before adding documents, we need to setup a security certificate.
+Security certificates are needed to 
 <hr>
 
 ## Working with Orientations
