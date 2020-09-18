@@ -5,12 +5,7 @@
 > It is very important for every institution to educate it’s new coming students about the school’s policies and procedures, as well as to engage them into what is going to be their future student life. *on_board* helps institutions accomplish just that, by providing an open source and robust platform where you can deploy the most amazing virtual orientations, simple and easy.
 
 ## Features
-
-- :heavy_check_mark: Custom orientation styling.
-- :heavy_check_mark: Sections of type video, rich text, and assessments.
-- :heavy_check_mark: Student invitation tool.
-- :heavy_check_mark: Admin and Advisor dashboards.
-- :heavy_check_mark: Email notification system.
+Check out the latest features [here](https://github.com/elvisblanco1993/on_board/releases/latest)
 
 ## Installation
 
@@ -37,7 +32,7 @@ Enable rewrite
 * <code>sudo systemctl restart apache2;</code>
 
 ### Download
-Download the latest version of *on_board* [here](https://github.com/elvisblanco1993/on_board/releases).
+Download the latest version of *on_board* [here](https://github.com/elvisblanco1993/on_board/releases/latest).
 
 Unzip <code>on_board.zip</code> on your root web directory.
 
