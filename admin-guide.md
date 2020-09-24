@@ -1,82 +1,113 @@
 # Administration resources
-> This guide is intended for System Administrators or personnel in charge of managing an instance of **on_board**. If you are an advisor, or a student, please refer to the corresponding documentation using the sidebar menu.
+> #### In this article, we will dig into the administrative settings of **on_board**.
 
-## Institution Setup
-This is an important section of the overall system, as the information here will be used by students to communicate with your Institution right from within on_board.
-To get your Institution's contact information in the system simply:
-1. **As an Administrator**, Go to Settings > Institution
-2. Enter all necessary information, then click **Save**.
+## Settings
 
-## Front Page Setup
-By default, when you navigate to your *on_board* instance you will be presented with the login screen.
-In some occasions it may be important to showcase any kind of information related to your organization.
+### Contact Information
+> #### The contact information is used by students, as a via of communication with a support team, or advisor(s) in charge of monitoring the orientation process.
 
-Fortunately, this is something very easy to do here :wink:.
-1. **As an Administrator**, Go to Settings > Front Page.
-2. Paste or manually enter your HTML content here, then click **Save**.
-3. Done! Now when you go to https://your-on_board.com you will be greeted with the content you just added.
+To add your contact information:
+1. Go to Settings.
+2. On the **Institution** section add:
+  - Institution Name
+  - Contact Phone
+  - Contact Email
+  - Postal Address *(optional)*
+3. Click the **Save** button to save the changes.
 
-## Add your Certificates
-Before adding documents, we need to setup a security certificate.
-Security certificates are needed to 
+### Allowed Domains
+> ##### This feature allows administrators to have a better control of what email domains are being used for account creation. When enabled, only email addresses using the listed domains will be authorized by the software.
+
+To enable this feature:
+1. Go to Settings.
+2. In the **Allowed Domains** section, enter the domain(s) intended to be authorized.
+ - You can add multiple domains at once, separating them by comma.
+3. When you are done adding the domains, click **Save** to save the changes.
+
+### Front Page
+> ##### The Front Page setting enables administrators an easy way to add a custom designed front page to ON_BOARD.
+
+To activate this feature, simply go to Settings, add your html code into the **Front Page** section, then click **Save**.
+- **Note:** ON_BOARD uses Bootstrap 4 by default, which could come handy for designers, to get a front page design ready in no time.
+
+
 <hr>
 
-## Working with Orientations
-> It may seem overwhelming but really, is not. We made it an easy for administrators to work with orientations.
+# Orientations
+> ##### Orientations is what ON_BOARD is about. It provides students with an easy eay of completing their orientations, and to sign any documents they need to, at their own pace. In this section you will learn how to create and manage orientations, enroll students, link documents, and more.
 
-In this section you will learn how to create and edit orientations, add and edit sections, enroll students, and view and export reports on student progress by orientation.
 ### Creating an orientation
-To create an orientation:
-1. Go to your Dashboard, then click **New** on the header of the Orientations card.
-2. Enter a name, description, and language, then click **Save**. *(The language field is for informative purposes only.
 
-### Editing the orientation settings
-On your Dashboard, select the *sliders* icon next to the orientation you need to edit.
+To create an orientation, go to Home on your sidebar menu.
+1. Click **New**, on the right side of the content area.
+2. Type in the orientation name, description, and the language, then click **Save**.
+  - The language field is purely informative, and it doesn't affect the orientation in terms of language or translation.
 
-![image](assets/img/edit-orientation-01.gif)
+### Adding Sections
 
-Once inside, you will see various options that will define how the orientation will look for the students.
+Once the orientation is created, you will be automatically redirected to the orientation content area.
 
-![image](assets/img/edit-orientation-02.png)
-* **Name**: *The name of the orientation*.
-* **Description**: *The description of the orientation*.
-* **Language**: *The language of the orientation. Please notice this is optional and is only for informative purposes*.
-* **Background image**: *Sets the orientation background image. This helps give your orientations a sense a more professional look*.
-* **Primary button**: *The color the 'Next' and 'Finish' orientation navigation buttons*.
-* **Secondary button**: *The color the 'Previous' orientation navigation button*.
-* **Navigation bar background**: *The background color for the orientation navigation menu*.
-* **Textbox background**: *The background color for the orientation presentation area*.
+To begin adding content to your orientation:
 
+1. Click the **Add section** button, located on the right side of the content area.
+2. Select the **content type** by using the dropdown menu on the right side of the content area, then click **Select**.
 
-### Adding sections
-1. To add a section, select the orientation on which you would like to perform the operation.
-2. Once inside, click the **Add section**.
-3. Select the type of section, then click **Select**.
-4. Fill in the required contents for the section.
-5. Click **Save** when you are done.
+  #### Content Types:
 
-### Enrolling students
-1. Click the **Enroll students** button next to the orientation you would like to enroll them into.
-2. Select the students, then click **Enroll**.
+  - **Text/Html**: Supports html formatted information, and utilizes a rich-text editor that allows for eady content editing right on the browser.
+    - Required fields: Section label, and Description.
+  - **Multimedia**: Currently supports videos hosted on Vimeo and Youtube. It takes the video's full url and plays it within the orientation.
+    - Required fields: Title, URL Provider and Video.
+  - **Assessment**: Allows administrators to insert single question assessments as part of the orientation experience. It currently supports multiple choice questions.
+    - Required fields: Section label, Question text, and Option 1 & 2.
 
-#### Enrolling students without an account
-It is also possible to enroll students even when they haven't created an account.
-1. To do this, go to the **Users** area.
-2. Click **Invite**.
-3. Enter the student name, email, and select the orientation you want to enroll the student into.
-4. Click **Save** when done.
-  * Students will receive an email asking them to sign up. When they sign up, they will be able to start their orientation right away.
+3. Once you are done adding a section, click **Save**.
+4. Repeat the same steps to add more sections.
 
-#### Unenroll students
-> Please notice that students can **only** be unenrolled from an orientation if they have not completed it.
+### Orientation Settings
 
-To unenroll a student, go to the Statistics section of the orientation, then click the Delete option *(trash icon)* for the student/s that need to be removed.
+> ##### We mentioned above that creating the orientation only takes a few seconds, but that doesn't mean you cannot tweak things around. We have provided some basic configuration options so that you can personalize each individual orientation and make it appeal to your institution's colors and design.
 
-### Track student progress
-We currently provide a simple, yet informative tool that allows administrators and advisors to track each individual student progress.
+1. While on the Home screen, click on the **Settings** icon (:gear:).
+  - By accessing the orientation settings, you will be able to edit the orientation name, description, and language. You will also be able to add a background image that will be used as the orientation background image on the student orientation player. Additionally, you can change the navigation buttons colors to match your institution design and colors.
+2. Once you are done editing, click **Save** to persist any changes.
 
-* To do this, simply click the **Statistics / Enrolled students** button next to the orientation you would like to check on.
+### Certificate of Completion
 
-You can also download a progress report by clicking the Excel download icon.
+> ##### A certificate of completion may be enabled in your orientation, and can be accessed by students only after they complete all sections within. Certificates must be manually enabled inside the orientation settings, and each design may be different from the rest. This gives you the flexibility to interchange the designs without affecting others.
 
-![Excel download](assets/img/excel-report.gif)
+1. To enable and edit your certificate of completion, go to the settings of the orientation you would like to enable it for.
+2. In the **Certificate** content area, click the *Enable/Disable* checkmark to turn the certificate on.
+  - If you wish to disable it, make sure the checkmark is disabled, then click **Save** to persist the changes.
+3. Edit the certificate using the available fields, and **Save** when you are done.
+
+  **Hint**: Click the :eye: icon next to **Certificate** to preview your changes.
+
+### Enrolling Students and Student Progress
+> ##### There are two ways you can enroll students on an orientation. You can either do it from the orientation, if the student is already registered, or by sending an invitation to the student.
+
+#### Enrolling existing students
+
+1. In the Home screen, click on **Enroll students**, next to the appropriate orientation.
+2. Select the student(s) you would like to enroll, then click **Enroll**.
+
+#### Enrolling students by invitation
+
+This one is a bit more time consuming, since right now you can only enroll one student at a time. When an invite is created, the student will receive two emails. The first will prompt the student to register on the platform, and the second one will notify the student about his/her enrollment in the orientation selected when the invitation was created.
+
+1. On the sidebar navigation menu, go to **Users**.
+2. Click **Invite** to begin entering the record.
+3. Type in the student legal name, working email, and (if applicable) the orientation you wish the student to be enrolled on.
+4. Click **Save** to persist the changes.
+
+  **Note**: Once the invitation is sent, the account will be marked as pending on the **Users** content area, until the user activates his/her account.
+
+## Users Management
+
+In **ON_BOARD**, you can manage multiple users and their roles. Currently supported roles are Administrator, Advisor, and Student. As an administrator, you have unlimited permissions throughout the entire dashboard. To view and manage users, simply go to the **Users** content area, using the navigation sidebar.
+
+<hr>
+
+#### Have a recommendation?
+
+> Help us improve this documentation [here](https://github.com/elvisblanco1993/nboard-docs/pulls).

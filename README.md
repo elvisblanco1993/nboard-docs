@@ -2,7 +2,7 @@
 
 ## About
 
-> It is very important for every institution to educate it’s new coming students about the school’s policies and procedures, as well as to engage them into what is going to be their future student life. *on_board* helps institutions accomplish just that, by providing an open source and robust platform where you can deploy the most amazing virtual orientations, simple and easy.
+> *ON_BOARD* enables Higher Education institutions to take students orientation to the digital model.
 
 ## Features
 Check out the latest features [here](https://github.com/elvisblanco1993/on_board/releases/latest)
@@ -123,3 +123,9 @@ Supervisor is a tool that ensures all notification queues are properly run witho
 To configure it please review the [official documentation](https://laravel.com/docs/8.x/queues#supervisor-configuration)
 
 > Alternatively, you can initialize the built-in queue worker with <code>php artisan queue:work</code>
+
+<hr>
+
+#### Have a recommendation?
+
+> Help us improve this documentation [here](https://github.com/elvisblanco1993/nboard-docs/pulls).
